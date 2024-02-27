@@ -15,7 +15,7 @@ def menu_func(self, context):
 def register():
     bpy.utils.register_class(GenerateSpaceship)
     bpy.types.VIEW3D_MT_mesh_add.append(menu_func)
-
+#bababoy
 def unregister():
     bpy.utils.unregister_class(GenerateSpaceship)
     bpy.types.VIEW3D_MT_mesh_add.remove(menu_func)
