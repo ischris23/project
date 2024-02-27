@@ -4,7 +4,7 @@ if "bpy" in locals():
     importlib.reload(spaceship_generator)
 else:
     from . import spaceship_generator
-
+#nothing else
 import bpy
 from bpy.props import StringProperty, BoolProperty, IntProperty
 from bpy.types import Operator
